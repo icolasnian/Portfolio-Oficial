@@ -13,6 +13,7 @@ html, body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     scroll-behavior: smooth;
+    font-family: 'Open Sans';
 }
 
 body::-webkit-scrollbar {
@@ -88,12 +89,12 @@ a:hover {
 }
 
 .contato-text {
-    font-size: 1rem;
-    text-align: left;
+    font-size: .9rem;
+    text-align: center;
     margin-top: .2rem;
     margin-bottom: 2.1rem;
-    font-weight: normal;
-    font-family: initial;
+    font-family: 'Open Sans';
+    font-weight: 200;
     color: rgba(0,0,0, 0.7);
 }
 footer {
@@ -111,7 +112,7 @@ footer {
 .copyright {
     color: white;
     position: relative;
-    font-family: initial;
+    font-family: 'Open Sans';
     font-size: 1rem;
     overflow: hidden;
     bottom: .3rem;
